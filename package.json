@@ -17,10 +17,14 @@
     "styleguide"
   ],
   "license": "MIT",
+  "peerDependencies": {
+    "eslint-restricted-globals": "^0.1.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint": "^4.16.0"
+  },
   "devDependencies": {
     "babel-preset-airbnb": "^2.4.0",
     "babel-tape-runner": "^2.0.1",
-    "eslint-restricted-globals": "^0.1.1",
     "tape": "^4.8.0"
   }
 }
