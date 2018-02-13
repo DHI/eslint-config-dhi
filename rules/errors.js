@@ -19,7 +19,7 @@ module.exports = {
     // disallow assignment in conditional expressions
     'no-cond-assign': ['error', 'always'],
 
-    // disallow use of console
+    // allow use of console
     'no-console': 'off',
 
     // disallow use of constant expressions in conditions
