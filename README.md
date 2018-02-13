@@ -10,6 +10,11 @@ It's a fork of Airbnb's eslint config, with DHI flavor.
 ### Getting started
 Our default export contains all of our ESLint rules, including ECMAScript 6+.
  
+Add this package as a dependency to your application:
+```bash
+npm i eslint-config-dhi -D # OR yarn add eslint-config-dhi -D
+```
+
 Add `{ "extends": ["eslint-config-dhi"] }` to your `.eslintrc.js`.
 
 
@@ -22,7 +27,7 @@ If your project uses ES6 or relies on babel features, the config should look som
 module.exports = {
   "root": true,
   "parser": "babel-eslint",
-  "extends": ["eslint-config-dhi"],
+  "extends": ["dhi"],
   "parserOptions": {
     "ecmaVersion": 8,
     "sourceType": "module",
@@ -38,6 +43,8 @@ module.exports = {
   }
 };
 ```
+
+> Remember to install babel & babel-eslint. Using `@babel/preset-env` is recommended.
 
 ##### Using debugger in dev mode
 If you want to use debugger statements during dev, you can turn it on in your .eslintrc.js file:
