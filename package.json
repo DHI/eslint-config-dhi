@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-dhi",
+  "version": "1.0.0",
+  "description": "The front-end for the FM Generator project.",
+  "repository": "DHI/eslint-config-dhi",
+  "author": "DHI Group <info@dhigroup.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-tape-runner ./test/test-*.js"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "dhi",
+    "javascript",
+    "styleguide"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-airbnb": "^2.4.0",
+    "babel-tape-runner": "^2.0.1",
+    "tape": "^4.8.0"
+  }
+}
