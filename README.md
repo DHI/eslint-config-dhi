@@ -20,7 +20,7 @@ Add `{ "extends": ["eslint-config-dhi"] }` to your `.eslintrc.js`.
 
 ### Advanced
 
-##### Using Babel
+#### Using Babel
 If your project uses ES6 or relies on babel features, the config should look something like this:
 
 ```javascript
@@ -46,7 +46,7 @@ module.exports = {
 
 > Remember to install babel & babel-eslint. Using `@babel/preset-env` is recommended.
 
-##### Using debugger in dev mode
+#### Using debugger in dev mode
 If you want to use debugger statements during dev, you can turn it on in your .eslintrc.js file:
 
 ```javascript
