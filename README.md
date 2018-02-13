@@ -18,7 +18,7 @@ npm i eslint-config-dhi -D # OR yarn add eslint-config-dhi -D
 Add `{ "extends": ["eslint-config-dhi"] }` to your `.eslintrc.js`.
 
 
-#### Advanced
+### Advanced
 
 ##### Using Babel
 If your project uses ES6 or relies on babel features, the config should look something like this:
