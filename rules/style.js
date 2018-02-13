@@ -169,9 +169,9 @@ module.exports = {
       applyDefaultPatterns: true,
     }],
 
-    // disallow mixed 'LF' and 'CRLF' as linebreaks
+    // Allow mixed 'LF' and 'CRLF' as linebreaks
     // https://eslint.org/docs/rules/linebreak-style
-    'linebreak-style': ['error', 'unix'],
+    'linebreak-style': 'off',
 
     // require or disallow an empty line between class members
     // https://eslint.org/docs/rules/lines-between-class-members
@@ -190,7 +190,7 @@ module.exports = {
     // specify the maximum depth that blocks can be nested
     'max-depth': ['off', 4],
 
-    // specify the maximum length of a line in your program
+    // do not specify the maximum length of a line in your program
     // https://eslint.org/docs/rules/max-len
     'max-len': 'off',
 
