@@ -349,10 +349,10 @@ module.exports = {
       ignoreComments: false,
     }],
 
-    // disallow dangling underscores in identifiers
+    // disallow dangling underscores in identifiers, except if they occur after 'this.'
     'no-underscore-dangle': ['error', {
       allow: [],
-      allowAfterThis: false,
+      allowAfterThis: true,
       allowAfterSuper: false,
       enforceInMethodNames: false,
     }],
