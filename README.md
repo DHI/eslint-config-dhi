@@ -52,7 +52,7 @@ If you want to use debugger statements during dev, you can turn it on in your .e
 ```javascript
 ...
   "rules": {
-    "no-debugger": process.env.NODE_END === "production" ? 2: 0 // Allow debugger during development
+    "no-debugger": process.env.NODE_ENV === "production" ? 2: 0 // Allow debugger during development
   }
 ...
 ```
