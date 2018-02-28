@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-dhi",
-  "version": "1.0.3",
-  "description": "The front-end for the FM Generator project.",
+  "version": "1.0.4",
+  "description": "DHI's base eslint configuration.",
   "repository": "DHI/eslint-config-dhi",
   "author": "DHI Group <info@dhigroup.com>",
   "main": "index.js",
