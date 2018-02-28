@@ -5,11 +5,11 @@
 This package provides DHI's .eslintrc as an extensible shared config.
 
 It's a fork of Airbnb's eslint config, with DHI flavor.
- 
+
 
 ### Getting started
 Our default export contains all of our ESLint rules, including ECMAScript 6+.
- 
+
 Add this package as a dependency to your application:
 ```bash
 npm i eslint-config-dhi -D # OR yarn add eslint-config-dhi -D
@@ -56,6 +56,27 @@ If you want to use debugger statements during dev, you can turn it on in your .e
   }
 ...
 ```
+
+#### Using JSDoc
+For projects that use JSDoc for documenting code, it might come in handy to use `eslint-plugin-jsdoc`. The recommended configuration to add to your project's .eslintrc is:
+
+```javascript
+  rules: {
+    "jsdoc/check-param-names": 1,
+    "jsdoc/check-types": 1,
+    "jsdoc/newline-after-description": 1,
+    "jsdoc/require-description-complete-sentence": 1,
+    "jsdoc/require-param": 1,
+    "jsdoc/require-param-name": 1,
+    "jsdoc/require-param-type": 1,
+    "jsdoc/require-returns-description": 1,
+    "jsdoc/require-returns-type": 1
+  },
+
+  plugins: ['jsdoc']
+```
+
+
 
 ### Running tests
 ```
