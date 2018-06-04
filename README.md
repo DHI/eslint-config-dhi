@@ -76,6 +76,9 @@ For projects that use JSDoc for documenting code, it might come in handy to use 
   plugins: ['jsdoc']
 ```
 
+#### Using with Prettier
+If Prettier is used for style rules, then use the no-style variation of this plugin.
+Add `{ "extends": ["eslint-config-dhi/no-style"] }` to your `.eslintrc.js`.
 
 
 ### Running tests
